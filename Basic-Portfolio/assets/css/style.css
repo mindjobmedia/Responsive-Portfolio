@@ -248,3 +248,35 @@ input[type=submit] {
   background: #ff6481;
   border: 0 none;
 }
+
+
+@media all and (max-width: 980px){
+  .container,
+  .sidebar,
+  #connect {
+     background-color: #ff6481;
+  }
+}
+
+@media all and (max-width: 768px){
+  .container,
+  .sidebar,
+  #connect {
+     background-color: #0f3e8d;
+  }
+}
+
+
+@media all and (max-width: 640px){
+  .container,
+  .sidebar,
+  #connect {
+     background-color: #0f3e8d;
+  }
+
+  #masthead {
+     background-color: #ff6481;
+     position: static;
+  }
+}
+
